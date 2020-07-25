@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------------------------------------layout */
+.main{
+	width: 940px;
+	margin: 0 auto;
+}
+.header,.nav,.content,.product,.desser-text,.pagebar,.page-button,.page-button a{
+	display: flex;
+}
+.header,.nav{
+	justify-content: space-between;
+	align-items: center;
+}
+.header{
+	padding: 30px 0;
+}
+.nav{
+	width: 300px;
+}
+.banner img,.menu a{
+	display: block;
+}
+.content{
+	padding: 60px 0;
+	justify-content: space-between;
+}
+.menu{
+	width: 300px;
+}
+.menu h3,.menu li{
+	padding: 16px 0 ;
+}
+.product{
+	width: 620px;
+	margin-left: 20px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.desser{
+	width: 300px;
+}
+.desser-img{
+    position: relative;
+}
+.desser-img p{
+	position: absolute;
+    top: 0;
+    left: 20px;
+    writing-mode: vertical-lr;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+.favorite{
+	position: absolute;
+    top: 19px;
+    right: 22px;
+}
+.desser-text{
+	margin-bottom: 20px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.desser-text span{
+	width: 127px;
+	padding: 14px 0;
+}
+.addbutton{
+	width: 300px;
+	border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.pagebar{
+	justify-content: flex-end;
+}
+.page-button a{
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+}
+/* --------------------------------------style */
+.main{
+	font-family: 微軟正黑體;
+}
+.nav a,.menu h3,.menu a,.addbutton{
+	font-size: 24px;
+	font-weight: bold;
+	color: #3F5D45;
+}
+.menu h3,.desser-img p,.pb-number:hover{
+	color: #EAF0ED;
+	background-color: #3F5D45;
+}
+.nav a{
+	font-size: 16px;
+}
+.menu h3{	
+	text-align: center;
+}
+.menu li,.page-button a{
+	border: 1px solid #EAF0ED;
+}
+.menu li:hover{
+	background-color:#EAF0ED;
+}
+.menu a{
+	text-align: center;
+}
+.desser-img p{
+	font-size: 16px;
+}
+.desser-text span{
+	text-align: center;
+	font-size: 20px;
+	color: #3F5D45;
+	border-right:1px solid #EAF0ED;
+	border-left:1px solid #EAF0ED;
+}
+.addbutton{
+    font-family: 微軟正黑體;
+}
+.page-button a{
+	font-size: 20px;
+	color: #3F5D45;
+}
+
+
+
